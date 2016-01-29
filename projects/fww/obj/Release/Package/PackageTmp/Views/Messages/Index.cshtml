@@ -1,0 +1,69 @@
+﻿@{
+    ViewBag.Title = "Повідомлення";
+    string Path = String.Format("/Content/Images/Users/");
+    string messageStatus = "Повідомлення від";
+    string newMessageStyle = "message-item";
+}
+@using fww.Models
+@model List<Interlocutor>
+
+
+<div class="content-new">
+    <!-- LEFT -->
+    <div class="left-box-my">
+        @if (Model.Count != 0)
+        {
+            <div id="messages-panel">
+                <div>
+                    @foreach (var item in Model)
+                    {
+                        if (item != null)
+                        {
+                            if (item.Unread == true)
+                            {
+                                messageStatus = "Непрочитані повідомлення від";
+                                newMessageStyle = "message-item-new-style";
+                            }
+                            <div class="@newMessageStyle" onclick="window.location.href = '/Messages/ConvoWith/@item.UserName'">
+                                <div style="float:left;margin-right:10px">
+                                    @if (System.IO.File.Exists(Server.MapPath(Path + item.Image)))
+                                    {
+                                        <img width="100" height="100" src="@Url.Content(Path + item.Image)"
+                                             alt="@item.Name" />
+                                    }
+                                    else
+                                    {
+                                        <img width="100" height="100" src="@Url.Content(Path + "default.png")"
+                                             alt="@item.Name" />
+                                    }
+
+                                </div>
+                                <div style="text-align:center;padding-top:30px;">
+                                    <div style="padding-top: 5px;"><span style="color:#808080">@messageStatus </span>@item.Name</div>
+                                </div>
+                            </div>
+                        }
+
+                    }
+                </div>
+            </div>
+        }
+        else
+        {
+            <div style="color:#808080; font-family:Tahoma;
+        font-size:11px; padding:10px;text-align:center">
+                У Вас немає повідомлень.
+            </div>
+        }
+</div>
+    <!-- RIGHT -->
+    <div class="right-box-my">
+        <div class="copyright-box-right">
+            'Знайди з ким' 
+            Сергій Калайда <br />
+            Про проект | Контакти <br />
+            2014 - 2015 
+        </div>
+    </div>
+    <div class="footer-new"></div>
+</div>

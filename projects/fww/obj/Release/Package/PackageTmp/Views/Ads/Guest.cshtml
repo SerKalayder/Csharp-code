@@ -1,0 +1,56 @@
+﻿@model fww.Models.LoginModel
+@{
+    ViewBag.Title = "Знайди з ким";
+}
+
+<div class="guest-main-div">
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl },
+        FormMethod.Post, new { @class = "", role = "form" }))
+{
+    <div class="guest-head">
+        <div class="guest-login-box">
+            <!--<div class="login-box-head">Вхід</div>-->
+            @Html.AntiForgeryToken()
+            @Html.TextBoxFor(m => m.UserName, new { @class = "login-input", placeholder = "Нікнейм" })
+            @Html.PasswordFor(m => m.Password, new { @class = "login-input", placeholder = "Пароль" })
+            @*
+                @Html.CheckBoxFor(m => m.RememberMe)
+                @Html.LabelFor(m => m.RememberMe)
+            *@
+            <input type="submit" name="Command" value="Вхід" class="guest-login-button" />
+            <div class="loginFieldsValidation">
+                <div>@Html.ValidationMessageFor(m => m.UserName)</div>
+                <div>@Html.ValidationMessageFor(m => m.Password)</div>
+                <div>@ViewBag.Inc</div>
+            </div>
+        </div>
+        <div class="guest-info-box">
+            <div class="info-box-head">Знайди з ким реалізувати свій задум</div>
+            <div class="info-box-text">
+                Маєте ідею чи задум і не знаєте як реалізувати це самотужки?
+                Як знайти людей, які хочуть з Вами співпрацювати задля реалізації 
+                цікавої ідеї, навчання, проведення часу разом чи будь-якої іншої спільної діяльності?
+                “Знайди з ким” – пропонує зручний спосіб пошуку людей, що 
+                бажають зайнятися спільною справою.
+
+
+            </div>
+        </div>
+    </div>
+}
+    <div class="guest-search-box">
+        <div id="search-panel">
+            <form method="post" action="/Ads/preSearch">
+                <div class="guest-search-wrapper">
+                    <input class="guest-search-textbox" type="text" id="keywords" name="Keywords"
+                           placeholder="ключові слова" />
+                    <input class="guest-search-button" name="Command" type="submit" value="Шукати" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

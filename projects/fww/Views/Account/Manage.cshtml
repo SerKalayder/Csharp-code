@@ -1,0 +1,33 @@
+﻿@model fww.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Зміна пароля";
+}
+
+
+<div class="register-main-div">
+    @using (Html.BeginForm("Manage", "Account", FormMethod.Post, new { @class = "formChangePass", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="manage-title">Зміна пароля</div>
+        <div class="">
+            @Html.PasswordFor(m => m.OldPassword, new { @class = "register-textbox", placeholder = "Старий пароль" })
+        </div>
+
+
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.NewPassword, new { @class = "register-textbox", placeholder = "Новий пароль" })
+        </div>
+
+        <div class="">
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "register-textbox", placeholder = "Підтвердіть пароль" })
+        </div>
+
+        <div class="">
+            <div class="">
+                <input type="submit" value="Змінити" class="register-button" />
+            </div>
+        </div>
+        @Html.ValidationSummary()
+    }
+</div>

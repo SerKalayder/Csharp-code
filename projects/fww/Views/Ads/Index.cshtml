@@ -1,0 +1,229 @@
+﻿@{
+    ViewBag.Title = "Find with whom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string[] themes = File.ReadAllLines(Server.MapPath("~/App_Data/Themes.txt"));
+    string[] countries = File.ReadAllLines(Server.MapPath("~/App_Data/Countries.txt"));
+    //string[] regions = File.ReadAllLines(Server.MapPath("~/App_Data/Regions.txt"));
+}
+@using fww.Models;
+@*@model List<Ad>*@
+@model IndexViewModel
+@using fww.Helpers
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
+
+<!-- body -->
+<main>
+    <section class="ads">
+        @if (Model.Ads.Count() != 0)
+        {
+            foreach (Ad m in Model.Ads)
+            {
+                if (m != null)
+                {
+                    <div class="record" onclick="window.location.href = '/Ads/No/@m.Id'">
+                        <div class="record-main-line">
+                            <img src="@Url.Content("~/Content/Images/Users/sk.png")" />
+                            <p>@m.Title we are going to help ukranians to beat theur president
+                                 </p>
+                        </div>
+                        <div class="record-info">
+                            <div class="textual">
+                                <p>Тема: @m.Theme</p>
+                                <p>Місце: @m.Country</p>
+                            </div>
+                            <div class="visual">
+                                <p>@m.Date</p>
+                                
+                                @*<p class="edit-icon"><a href="#"><img src="@Url.Content("~/Content/Images/edit.png")" /></a></p>
+                                <p class="subs-icon"><img src="@Url.Content("~/Content/Images/subs.png")" /> 93</p>
+                                <p class="stars-icon"><img src="@Url.Content("~/Content/Images/star.png")" /> 81</p>
+                                <a href="/MyAds/Edit/@m.Id" class="edit-pencil">Редагувати</a>*@                 
+                            </div>   
+                        </div>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <div style="color:#808080; font-family:Tahoma;
+            font-size: 1em; padding-top:15px;">
+                Нічого не знайдено.
+            </div>
+        }
+    </section>
+
+    <div class="sliders">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { page = x }))
+    </div>
+</main>
+
+
+
+<!-- old 
+<div class="content-search">
+
+
+    <!-- LEFT 
+    <div class="left-box-search">
+        @if (Model.Ads.Count() != 0)
+        {
+            foreach (Ad m in Model.Ads)
+            {
+                if (m != null)
+                {
+                    <div class="record" onclick="window.location.href = '/Ads/No/@m.Id'">
+                        <div class="recordTitle"><span class="note">@m.Title</span> @*<a href="/MyAds/Edit/@m.Id" class="edit-pencil">Редагувати</a>*@</div>
+                        <div class="recordText">@m.Text</div>
+                        <div class="record-info-bar">
+                            <div>Підписано: @m.Engaged</div>
+                            <div>Тема: @m.Theme</div>
+                            <div>Місце: @m.Country</div>
+                            <div class="recordTime">@m.Date.ToString("dd/MM/yyyy")</div>
+                        </div>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <div style="color:#808080; font-family:Tahoma;
+            font-size:14px; padding-top:15px;">
+                Нічого не знайдено.
+            </div>
+        }
+        <br />
+        <div class="sliders">
+            @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new { page = x }))
+        </div>
+        <div class="footer-search"></div>
+    </div>
+        -->
+
+
+    <!-- RIGHT 
+    <div class="right-box-search">
+        <div class="search-rightbox-head">Search</div>
+        <form class="filter-form" method="post" action="/Ads/Search">
+            <div class="search-input-item">
+                <input name="Keywords" id="keywords" type="text" class="search-keywords"
+                       placeholder="type keywords here"
+                       value="@ViewBag.Keywords" />
+            </div>
+            <div class="search-input-item">
+                <label for="theme">Theme</label>
+                <select name="Theme" id="theme" class="search-select">
+                    @foreach (string item in themes)
+                    {
+                        if (ViewBag.Theme != item)
+                        {
+                            <option value="@item">@item</option>
+                        }
+                        else
+                        {
+                            <option value="@item" selected="selected">@item</option>
+                        }
+                    }
+                </select>
+
+            </div>
+            <div class="search-input-item">
+                <label for="country">Country</label>
+                <select name="Country" id="country" class="search-select">
+                    @foreach (string item in countries)
+                    {
+                        <option value="@item">@item</option>
+                    }
+                </select>
+            </div>
+
+            <div class="search-input-item">
+                <label for="region">Region</label>
+                <select name="Region" id="region" disabled="disabled" class="search-select"></select>
+            </div>
+
+            <div class="search-input-checkbox">
+                @if (@ViewBag.Popularity == "on")
+                {
+                    <input type="checkbox" name="Popularity" id="popularity" checked="checked" />
+                    <label for="popularity">Sort by popularity</label>
+                }
+                else
+                {
+                    <input type="checkbox" name="Popularity" id="popularity" />
+                    <label for="popularity">Sort by popularity</label>
+                }
+            </div>
+
+            <input type="submit" class="search-button-search" value="find with whom!" />
+        </form>
+
+        <div id="copyright">
+            <a href="https://twitter.com/findwithwhom">find with whom</a> &copy; 2014 
+            <br />
+            Created by <a href="https://twitter.com/serkalayder">Sergiy Kalayda</a>
+            <br />
+            <a href="/">Widget</a> for your site
+            <br />
+            <a href="/">About</a>
+        </div>
+-->
+        <!-- VK Widget 
+        <div id="vk_groups"></div>
+        <script type="text/javascript">
+            VK.Widgets.Group("vk_groups", { mode: 1, width: "300", height: "200", color1: 'FFFFFF', color2: '736357', color3: '736357' }, 97005828);
+        </script>
+
+    </div>
+</div>
+            -->
+
+
+
+
+@section scripts{
+    <script type="text/javascript">
+
+    $('document').on('load', function() {
+        var countryDropdown = $('#country');
+        //Create new option
+        var option = $('<option />').html("not selected");
+        //append city states drop down
+        countryDropdown.append(option); })
+
+        $(function () {
+            $('#country').on('change', function() {
+                var regionDropdown = $('#region');
+                //disable city drop down
+                regionDropdown.prop('disabled', 'disabled');
+                //clear drop down of old city
+                regionDropdown.empty();
+
+                //retrieve selected state
+                var country = $(this).val();
+                if (country.length > 0) {
+                    // retrieve data using a Url.Action() to construct url
+                    $.getJSON('@Url.Action("GetRegions")', {
+                        country: country
+                    })
+                    .done(function (data) {
+                        //re-enable city drop down
+                        regionDropdown.removeProp('disabled');
+                        //for each returned state
+                        $.each(data, function (i, city) {
+                            //Create new option
+                            var option = $('<option />').html(city);
+                            //append city states drop down
+                            regionDropdown.append(option);
+                        });
+                    })
+                    .fail(function (jqxhr, textStatus, error) {
+                        var err = textStatus + ", " + error;
+                        console.log("Request Failed: " + err);
+                    });
+                }
+            });
+        })
+    </script>
+}  

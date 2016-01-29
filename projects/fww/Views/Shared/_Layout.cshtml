@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/StyleSheet.css")" rel="stylesheet" type="text/css" />
+    @Scripts.Render("~/bundles/modernizr")
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+    <div class="content">
+        <header>
+            <section class="header-line">
+                <div class="logo"><a href="/"><img src="@Url.Content("~/Content/Images/logo.png")" /></a></div>
+                <div class="logo-name"><a href="/">with whom</a> </div>
+                <div class="menu-buttons">
+                    <a href="#" id="menu-button"><img src="@Url.Content("~/Content/Images/menu.png")" /></a>
+                    <a href="#" id="search-button"><img src="@Url.Content("~/Content/Images/search.png")" /></a>
+                </div>
+            </section>
+            <section class="to-be-expanded">
+                <nav>@Html.Partial("_LoginPartial")</nav>
+                <div>SEARCH</div>
+            </section> 
+        </header>
+
+
+        <div class="main">
+            @RenderBody()
+        </div>
+
+
+    </div>
+
+       
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="@Url.Content("/Scripts/responsive.js")"></script> 
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿@model fww.Models.Ad
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Нове оголошення";
+    string[] themes = File.ReadAllLines(Server.MapPath("~/App_Data/Themes.txt"));
+    string[] cities = File.ReadAllLines(Server.MapPath("~/App_Data/c.txt"));
+}
+
+<div class="content-new">
+    <form method="post" action="/MyAds/New" >
+        <div class="left-box-new">
+            <div class="div-new">
+                <label for="title">Назва оголошення</label>
+                <input name="Title" id="title" type="text" placeholder="впишіть тут.." class="title-input-new" />
+            </div>
+            <div class="div-new">
+                <label for="text">Текст</label>
+                <textarea name="Text" id="text" placeholder="впишіть тут.." class="message-input-new"></textarea>
+            </div>
+        </div>
+
+        <div class="right-box-new">
+            <div class="div-new">
+                <label for="theme">Тема</label>
+                <select name="Theme" id="theme" class="select-new">
+                    @foreach (string item in themes)
+                    {
+                        <option value="@item">@item</option>
+                    }
+                </select>
+            </div>
+            <div class="div-new">
+                <label for="keywords">Ключові слова</label>
+                <input name="Keywords" id="keywords" type="text" placeholder="Ключові слова (максимум 5)" class="keywords-input-new" />
+            </div>
+            <div class="div-new">
+                <label for="location">Місце розташування</label>
+                <select name="Location" class="select-new">
+                    @foreach (string item in cities)
+                    {
+                        <option value="@item">@item</option>
+                    }
+                </select>
+            </div>
+            
+            <div class="upload-div-new">
+                <label for="file">Зображення</label>
+                <label for="file" class="upload-label">Обрати</label>
+                <input id="file" type="file" name="file" class="upload" />
+            </div>
+        
+            <div class="btn-div-new ">
+                <input name="AppendButton" type="submit" value="Опублікувати" class="button-new" />
+            </div>
+            
+        </div>
+        <div class="footer-new"></div>
+    </form>
+    
+</div>

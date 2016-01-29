@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Розмова із " + ViewBag.Interlocutor.Nickname;
+    string Path = String.Format("/Content/Images/Users/");
+}
+@using fww.Models;
+
+<div class="content-new">
+    <!-- LEFT -->
+    <div class="left-box-my">
+        @if (ViewBag.Messages.Count != 0)
+        {
+            foreach (UserMessage item in ViewBag.Messages)
+            {
+                <div class="message-box">
+                    <div class="message-header">
+                        <div class="message-sender">@item.SenderName</div>
+                        <div class="message-date">@item.Date.ToString("HH:mm, d MMM, yyyy")</div>
+                    </div>
+                    <div class="message-text">
+                        @item.Message
+                    </div>
+                </div>
+
+            }
+        }
+        else
+        {
+            <div style="color:#808080; font-family:Tahoma;
+            font-size:11px; padding:10px;">
+                Немає повідомлень
+            </div>
+        }
+
+    </div>
+    <!-- RIGHT -->
+    <div class="right-box-my">
+        <div class="message-send-box">
+            <form method="post" action="/Messages/ConvoWith">
+                <input name="MessageReceiver" type="hidden" value="@ViewBag.Interlocutor.UserName" />
+                <textarea name="MessageText" placeholder="Введіть текст тут..." class="message-input"></textarea>
+                <input name="AppendButton" type="submit" value="Відправити" class="message-send-button" />
+            </form>
+        </div>
+
+        <div class="interlocutor-info-box">
+            <div class="interlocutor-header">Співбесідник</div>
+            <div class="interlocutor">
+                <div style="float:left;margin-right:10px">
+                    @if (System.IO.File.Exists(Server.MapPath(Path + @ViewBag.Interlocutor.Image)))
+                    {
+                        <img width="100" height="100" src="@Url.Content(Path + ViewBag.Interlocutor.Image)"
+                             alt="@ViewBag.Interlocutor.Nickname" />
+                    }
+                    else
+                    {
+                        <img width="100" height="100" src="@Url.Content(Path + "default.png")"
+                             alt="@ViewBag.Interlocutor.Nickname" />
+                    }
+                </div>
+                <div>
+                    <div class="current-user-name">@ViewBag.Interlocutor.Nickname</div>
+                    <div class="info">@ViewBag.Interlocutor.FirstName @ViewBag.Interlocutor.LastName</div>
+                    <div class="info">@ViewBag.Interlocutor.Country, @ViewBag.Interlocutor.Town</div>
+                    <div class="info">@ViewBag.Interlocutor.Occupation</div>
+                    <div class="info">@ViewBag.Interlocutor.Interests</div>
+                </div>
+            </div>
+            <div class="interlocutor-sub-info">
+                <div>Інтереси:<br /> <span>@ViewBag.Interlocutor.Interests</span></div>
+                <div>Навички: <br /> <span>@ViewBag.Interlocutor.Skills</span></div>
+                <div>Додаткові відомості: <br /> <span>@ViewBag.Interlocutor.UserDescription</span></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer-new"></div>
+</div>

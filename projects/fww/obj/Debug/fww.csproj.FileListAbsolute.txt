@@ -1,0 +1,641 @@
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\fww.dll.config
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\fww.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\fww.pdb
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Antlr3.Runtime.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\EntityFramework.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Data.Edm.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Data.OData.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Newtonsoft.Json.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Net.Http.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Net.Http.Formatting.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Net.Http.WebRequest.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Spatial.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Helpers.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Http.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Http.OData.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Http.WebHost.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Mvc.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Optimization.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Razor.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.WebPages.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\WebGrease.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\WebMatrix.Data.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\WebMatrix.WebData.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\EntityFramework.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Newtonsoft.Json.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Net.Http.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Net.Http.Formatting.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Net.Http.WebRequest.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Helpers.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Http.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Http.WebHost.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Mvc.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Razor.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.WebPages.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\WebMatrix.Data.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\WebMatrix.WebData.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Web.Http.OData.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Data.Edm.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\Microsoft.Data.OData.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\System.Spatial.xml
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\de\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\es\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\fr\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\it\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ja\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ko\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\ru\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\obj\Debug\fww.dll
+C:\Users\Sergiy Kalayda\Documents\GitHub\fww\fww\obj\Debug\fww.pdb
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\fww.dll.config
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\fww.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\fww.pdb
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Antlr3.Runtime.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\EntityFramework.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Data.Edm.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Data.OData.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Newtonsoft.Json.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Net.Http.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Net.Http.Formatting.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Net.Http.WebRequest.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Spatial.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Helpers.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Http.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Http.OData.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Http.WebHost.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Mvc.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Optimization.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Razor.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.WebPages.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\WebGrease.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\WebMatrix.Data.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\WebMatrix.WebData.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\EntityFramework.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Newtonsoft.Json.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Net.Http.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Net.Http.Formatting.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Net.Http.WebRequest.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Helpers.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Http.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Http.WebHost.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Mvc.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Razor.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.WebPages.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\WebMatrix.Data.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\WebMatrix.WebData.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Web.Http.OData.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Data.Edm.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\Microsoft.Data.OData.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\System.Spatial.xml
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\de\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\es\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\fr\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\it\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ja\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ko\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\ru\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\obj\Debug\fww.dll
+C:\Users\Sergiy Kalayda\Desktop\fww.ua\fww\obj\Debug\fww.pdb
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\fww.dll.config
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\fww.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\fww.pdb
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Antlr3.Runtime.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\EntityFramework.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Data.Edm.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Data.OData.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Newtonsoft.Json.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Net.Http.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Net.Http.Formatting.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Net.Http.WebRequest.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Spatial.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Helpers.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Http.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Http.OData.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Http.WebHost.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Mvc.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Optimization.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Razor.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.WebPages.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\WebGrease.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\WebMatrix.Data.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\WebMatrix.WebData.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\EntityFramework.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Newtonsoft.Json.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Net.Http.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Net.Http.Formatting.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Net.Http.WebRequest.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Helpers.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Http.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Http.WebHost.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Mvc.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Razor.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.WebPages.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\WebMatrix.Data.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\WebMatrix.WebData.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Web.Http.OData.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Data.Edm.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\Microsoft.Data.OData.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\System.Spatial.xml
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\de\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\es\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\fr\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\it\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ja\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ko\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\ru\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\obj\Debug\fww.dll
+C:\Users\Sergiy\OneDrive\_projects\COURSE WORK\fww.ua\fww\obj\Debug\fww.pdb
+K:\fww.ua\fww\bin\fww.dll.config
+K:\fww.ua\fww\bin\fww.dll
+K:\fww.ua\fww\bin\fww.pdb
+K:\fww.ua\fww\bin\Antlr3.Runtime.dll
+K:\fww.ua\fww\bin\DotNetOpenAuth.AspNet.dll
+K:\fww.ua\fww\bin\DotNetOpenAuth.Core.dll
+K:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+K:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.dll
+K:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.dll
+K:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+K:\fww.ua\fww\bin\EntityFramework.dll
+K:\fww.ua\fww\bin\Microsoft.Data.Edm.dll
+K:\fww.ua\fww\bin\Microsoft.Data.OData.dll
+K:\fww.ua\fww\bin\Microsoft.Web.Infrastructure.dll
+K:\fww.ua\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+K:\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+K:\fww.ua\fww\bin\Newtonsoft.Json.dll
+K:\fww.ua\fww\bin\System.Net.Http.dll
+K:\fww.ua\fww\bin\System.Net.Http.Formatting.dll
+K:\fww.ua\fww\bin\System.Net.Http.WebRequest.dll
+K:\fww.ua\fww\bin\System.Spatial.dll
+K:\fww.ua\fww\bin\System.Web.Helpers.dll
+K:\fww.ua\fww\bin\System.Web.Http.dll
+K:\fww.ua\fww\bin\System.Web.Http.OData.dll
+K:\fww.ua\fww\bin\System.Web.Http.WebHost.dll
+K:\fww.ua\fww\bin\System.Web.Mvc.dll
+K:\fww.ua\fww\bin\System.Web.Optimization.dll
+K:\fww.ua\fww\bin\System.Web.Razor.dll
+K:\fww.ua\fww\bin\System.Web.WebPages.Deployment.dll
+K:\fww.ua\fww\bin\System.Web.WebPages.dll
+K:\fww.ua\fww\bin\System.Web.WebPages.Razor.dll
+K:\fww.ua\fww\bin\WebGrease.dll
+K:\fww.ua\fww\bin\WebMatrix.Data.dll
+K:\fww.ua\fww\bin\WebMatrix.WebData.dll
+K:\fww.ua\fww\bin\EntityFramework.xml
+K:\fww.ua\fww\bin\Newtonsoft.Json.xml
+K:\fww.ua\fww\bin\System.Net.Http.xml
+K:\fww.ua\fww\bin\System.Net.Http.Formatting.xml
+K:\fww.ua\fww\bin\System.Net.Http.WebRequest.xml
+K:\fww.ua\fww\bin\System.Web.Helpers.xml
+K:\fww.ua\fww\bin\System.Web.Http.xml
+K:\fww.ua\fww\bin\System.Web.Http.WebHost.xml
+K:\fww.ua\fww\bin\System.Web.Mvc.xml
+K:\fww.ua\fww\bin\System.Web.Razor.xml
+K:\fww.ua\fww\bin\System.Web.WebPages.xml
+K:\fww.ua\fww\bin\System.Web.WebPages.Deployment.xml
+K:\fww.ua\fww\bin\System.Web.WebPages.Razor.xml
+K:\fww.ua\fww\bin\WebMatrix.Data.xml
+K:\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+K:\fww.ua\fww\bin\WebMatrix.WebData.xml
+K:\fww.ua\fww\bin\DotNetOpenAuth.AspNet.xml
+K:\fww.ua\fww\bin\DotNetOpenAuth.Core.xml
+K:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+K:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.xml
+K:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.xml
+K:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+K:\fww.ua\fww\bin\System.Web.Http.OData.xml
+K:\fww.ua\fww\bin\Microsoft.Data.Edm.xml
+K:\fww.ua\fww\bin\Microsoft.Data.OData.xml
+K:\fww.ua\fww\bin\System.Spatial.xml
+K:\fww.ua\fww\bin\de\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\es\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\it\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+K:\fww.ua\fww\bin\de\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\es\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\fr\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\it\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\ja\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\ko\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\ru\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+K:\fww.ua\fww\bin\de\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\es\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\fr\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\it\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\ja\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\ko\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\ru\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\zh-Hans\System.Spatial.resources.dll
+K:\fww.ua\fww\bin\zh-Hant\System.Spatial.resources.dll
+K:\fww.ua\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+K:\fww.ua\fww\obj\Debug\fww.dll
+K:\fww.ua\fww\obj\Debug\fww.pdb
+E:\fww.ua\fww\bin\fww.dll.config
+E:\fww.ua\fww\bin\fww.dll
+E:\fww.ua\fww\bin\fww.pdb
+E:\fww.ua\fww\bin\Antlr3.Runtime.dll
+E:\fww.ua\fww\bin\DotNetOpenAuth.AspNet.dll
+E:\fww.ua\fww\bin\DotNetOpenAuth.Core.dll
+E:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.dll
+E:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.dll
+E:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\fww.ua\fww\bin\EntityFramework.dll
+E:\fww.ua\fww\bin\Microsoft.Data.Edm.dll
+E:\fww.ua\fww\bin\Microsoft.Data.OData.dll
+E:\fww.ua\fww\bin\Microsoft.Web.Infrastructure.dll
+E:\fww.ua\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\fww.ua\fww\bin\Newtonsoft.Json.dll
+E:\fww.ua\fww\bin\System.Net.Http.dll
+E:\fww.ua\fww\bin\System.Net.Http.Formatting.dll
+E:\fww.ua\fww\bin\System.Net.Http.WebRequest.dll
+E:\fww.ua\fww\bin\System.Spatial.dll
+E:\fww.ua\fww\bin\System.Web.Helpers.dll
+E:\fww.ua\fww\bin\System.Web.Http.dll
+E:\fww.ua\fww\bin\System.Web.Http.OData.dll
+E:\fww.ua\fww\bin\System.Web.Http.WebHost.dll
+E:\fww.ua\fww\bin\System.Web.Mvc.dll
+E:\fww.ua\fww\bin\System.Web.Optimization.dll
+E:\fww.ua\fww\bin\System.Web.Razor.dll
+E:\fww.ua\fww\bin\System.Web.WebPages.Deployment.dll
+E:\fww.ua\fww\bin\System.Web.WebPages.dll
+E:\fww.ua\fww\bin\System.Web.WebPages.Razor.dll
+E:\fww.ua\fww\bin\WebGrease.dll
+E:\fww.ua\fww\bin\WebMatrix.Data.dll
+E:\fww.ua\fww\bin\WebMatrix.WebData.dll
+E:\fww.ua\fww\bin\EntityFramework.xml
+E:\fww.ua\fww\bin\Newtonsoft.Json.xml
+E:\fww.ua\fww\bin\System.Net.Http.xml
+E:\fww.ua\fww\bin\System.Net.Http.Formatting.xml
+E:\fww.ua\fww\bin\System.Net.Http.WebRequest.xml
+E:\fww.ua\fww\bin\System.Web.Helpers.xml
+E:\fww.ua\fww\bin\System.Web.Http.xml
+E:\fww.ua\fww\bin\System.Web.Http.WebHost.xml
+E:\fww.ua\fww\bin\System.Web.Mvc.xml
+E:\fww.ua\fww\bin\System.Web.Razor.xml
+E:\fww.ua\fww\bin\System.Web.WebPages.xml
+E:\fww.ua\fww\bin\System.Web.WebPages.Deployment.xml
+E:\fww.ua\fww\bin\System.Web.WebPages.Razor.xml
+E:\fww.ua\fww\bin\WebMatrix.Data.xml
+E:\fww.ua\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\fww.ua\fww\bin\WebMatrix.WebData.xml
+E:\fww.ua\fww\bin\DotNetOpenAuth.AspNet.xml
+E:\fww.ua\fww\bin\DotNetOpenAuth.Core.xml
+E:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\fww.ua\fww\bin\DotNetOpenAuth.OAuth.xml
+E:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.xml
+E:\fww.ua\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\fww.ua\fww\bin\System.Web.Http.OData.xml
+E:\fww.ua\fww\bin\Microsoft.Data.Edm.xml
+E:\fww.ua\fww\bin\Microsoft.Data.OData.xml
+E:\fww.ua\fww\bin\System.Spatial.xml
+E:\fww.ua\fww\bin\de\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\es\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\it\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\fww.ua\fww\bin\de\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\es\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\fr\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\it\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\ja\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\ko\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\ru\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\fww.ua\fww\bin\de\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\es\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\fr\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\it\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\ja\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\ko\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\ru\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\zh-Hans\System.Spatial.resources.dll
+E:\fww.ua\fww\bin\zh-Hant\System.Spatial.resources.dll
+E:\fww.ua\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+E:\fww.ua\fww\obj\Debug\fww.dll
+E:\fww.ua\fww\obj\Debug\fww.pdb
+E:\fww.ua\fww\bin\PagedList.dll
+E:\fww.ua\fww\bin\PagedList.Mvc.dll
+E:\fww.ua\fww\bin\PagedList.xml
+E:\fww.ua\fww\bin\PagedList.Mvc.xml
+E:\fww\fww\bin\fww.dll.config
+E:\fww\fww\bin\fww.dll
+E:\fww\fww\bin\fww.pdb
+E:\fww\fww\bin\Antlr3.Runtime.dll
+E:\fww\fww\bin\DotNetOpenAuth.AspNet.dll
+E:\fww\fww\bin\DotNetOpenAuth.Core.dll
+E:\fww\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\fww\fww\bin\DotNetOpenAuth.OAuth.dll
+E:\fww\fww\bin\DotNetOpenAuth.OpenId.dll
+E:\fww\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\fww\fww\bin\EntityFramework.dll
+E:\fww\fww\bin\Microsoft.Data.Edm.dll
+E:\fww\fww\bin\Microsoft.Data.OData.dll
+E:\fww\fww\bin\Microsoft.Web.Infrastructure.dll
+E:\fww\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\fww\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\fww\fww\bin\Newtonsoft.Json.dll
+E:\fww\fww\bin\PagedList.dll
+E:\fww\fww\bin\PagedList.Mvc.dll
+E:\fww\fww\bin\System.Net.Http.dll
+E:\fww\fww\bin\System.Net.Http.Formatting.dll
+E:\fww\fww\bin\System.Net.Http.WebRequest.dll
+E:\fww\fww\bin\System.Spatial.dll
+E:\fww\fww\bin\System.Web.Helpers.dll
+E:\fww\fww\bin\System.Web.Http.dll
+E:\fww\fww\bin\System.Web.Http.OData.dll
+E:\fww\fww\bin\System.Web.Http.WebHost.dll
+E:\fww\fww\bin\System.Web.Mvc.dll
+E:\fww\fww\bin\System.Web.Optimization.dll
+E:\fww\fww\bin\System.Web.Razor.dll
+E:\fww\fww\bin\System.Web.WebPages.Deployment.dll
+E:\fww\fww\bin\System.Web.WebPages.dll
+E:\fww\fww\bin\System.Web.WebPages.Razor.dll
+E:\fww\fww\bin\WebGrease.dll
+E:\fww\fww\bin\WebMatrix.Data.dll
+E:\fww\fww\bin\WebMatrix.WebData.dll
+E:\fww\fww\bin\PagedList.xml
+E:\fww\fww\bin\PagedList.Mvc.xml
+E:\fww\fww\bin\EntityFramework.xml
+E:\fww\fww\bin\Newtonsoft.Json.xml
+E:\fww\fww\bin\System.Net.Http.xml
+E:\fww\fww\bin\System.Net.Http.Formatting.xml
+E:\fww\fww\bin\System.Net.Http.WebRequest.xml
+E:\fww\fww\bin\System.Web.Helpers.xml
+E:\fww\fww\bin\System.Web.Http.xml
+E:\fww\fww\bin\System.Web.Http.WebHost.xml
+E:\fww\fww\bin\System.Web.Mvc.xml
+E:\fww\fww\bin\System.Web.Razor.xml
+E:\fww\fww\bin\System.Web.WebPages.xml
+E:\fww\fww\bin\System.Web.WebPages.Deployment.xml
+E:\fww\fww\bin\System.Web.WebPages.Razor.xml
+E:\fww\fww\bin\WebMatrix.Data.xml
+E:\fww\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\fww\fww\bin\WebMatrix.WebData.xml
+E:\fww\fww\bin\DotNetOpenAuth.AspNet.xml
+E:\fww\fww\bin\DotNetOpenAuth.Core.xml
+E:\fww\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\fww\fww\bin\DotNetOpenAuth.OAuth.xml
+E:\fww\fww\bin\DotNetOpenAuth.OpenId.xml
+E:\fww\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\fww\fww\bin\System.Web.Http.OData.xml
+E:\fww\fww\bin\Microsoft.Data.Edm.xml
+E:\fww\fww\bin\Microsoft.Data.OData.xml
+E:\fww\fww\bin\System.Spatial.xml
+E:\fww\fww\bin\de\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\es\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\it\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\fww\fww\bin\de\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\es\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\fr\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\it\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\ja\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\ko\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\ru\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\fww\fww\bin\de\System.Spatial.resources.dll
+E:\fww\fww\bin\es\System.Spatial.resources.dll
+E:\fww\fww\bin\fr\System.Spatial.resources.dll
+E:\fww\fww\bin\it\System.Spatial.resources.dll
+E:\fww\fww\bin\ja\System.Spatial.resources.dll
+E:\fww\fww\bin\ko\System.Spatial.resources.dll
+E:\fww\fww\bin\ru\System.Spatial.resources.dll
+E:\fww\fww\bin\zh-Hans\System.Spatial.resources.dll
+E:\fww\fww\bin\zh-Hant\System.Spatial.resources.dll
+E:\fww\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+E:\fww\fww\obj\Debug\fww.dll
+E:\fww\fww\obj\Debug\fww.pdb
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\fww.dll.config
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\fww.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\fww.pdb
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Antlr3.Runtime.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.Core.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\EntityFramework.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Data.Edm.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Data.OData.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Newtonsoft.Json.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\PagedList.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\PagedList.Mvc.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Net.Http.Formatting.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Spatial.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Helpers.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Http.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Http.OData.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Http.WebHost.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Mvc.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Optimization.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Razor.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.WebPages.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.WebPages.Razor.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\WebGrease.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\WebMatrix.WebData.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Net.Http.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\PagedList.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\PagedList.Mvc.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\EntityFramework.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Newtonsoft.Json.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Net.Http.Formatting.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Helpers.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Http.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Http.WebHost.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Mvc.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Razor.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.WebPages.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.WebPages.Razor.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\WebMatrix.Data.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\WebMatrix.WebData.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.Core.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Web.Http.OData.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Data.Edm.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\Microsoft.Data.OData.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Spatial.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Net.Http.xml
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\de\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\es\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\fr\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\it\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ja\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ko\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\ru\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\obj\Debug\fww.csprojResolveAssemblyReference.cache
+C:\Users\Sergiy\Desktop\fww\fww_\fww\obj\Debug\fww.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\obj\Debug\fww.pdb
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Net.Http.WebRequest.dll
+C:\Users\Sergiy\Desktop\fww\fww_\fww\bin\System.Net.Http.WebRequest.xml

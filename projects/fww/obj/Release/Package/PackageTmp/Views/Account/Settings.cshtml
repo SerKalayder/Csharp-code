@@ -1,0 +1,67 @@
+﻿@model fww.Models.CustomUserInfo
+@{
+    ViewBag.Title = "Установки";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-new">
+    <div class="settings-main-box">
+        @using (Html.BeginForm("Settings", "Account", FormMethod.Post,
+            new { @class = "settings-form", role = "form", enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+
+        <!-- LEFT -->
+            <div class="settings-left">
+                <label>Псевдонім</label>
+                @Html.TextBoxFor(m => m.Nickname, new { @class = "settings-textbox" })
+                <label>Ім'я</label>
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "settings-textbox" })
+                <label>Прізвище</label>
+                @Html.TextBoxFor(m => m.LastName, new { @class = "settings-textbox" })
+                <label>Країна</label>
+                @Html.TextBoxFor(m => m.Country, new { @class = "settings-textbox" })
+                <label>Місто</label>
+                @Html.TextBoxFor(m => m.Town, new { @class = "settings-textbox" }) 
+                <label>Професія</label>
+                @Html.TextBoxFor(m => m.Occupation, new { @class = "settings-textbox" })
+            </div>
+        <!-- MIDDLE -->
+            <div class="settings-middle">
+                <label>Сфера інтересів</label>
+                @Html.TextBoxFor(m => m.Interests, new { @class = "settings-textbox" })
+                <label>Спеціальні навички, досвід</label>
+                @Html.TextBoxFor(m => m.Skills, new { @class = "settings-textbox" })
+                <label>Додаткові дані</label>
+                @Html.TextAreaFor(m => m.UserDescription, new { @class = "settings-textarea" })
+                
+                <div id="imageLoadBox">
+                    <label class="image-label"  for="file">Зображення</label>
+                    <label for="file" class="settings-upload-label">Обрати нове</label>
+                    <!--<div class="settings-image-expl">Рекомендовано квадратне зобреження*</div>-->
+                    <input id="file" type="file" name="file" class="upload" />
+                </div>
+
+            </div>
+            @Html.ValidationSummary()
+            <div class="settings-save-button-box">
+                <input type="submit" class="settings-save-button" value="Зберегти" />
+            </div>
+        }
+    </div>
+    <!-- RIGHT -->
+    <div class="settings-right">
+        <div id="linksToAccountChange">
+            <div><a href="/Account/Manage">Змінити пароль</a></div>
+            <div><a href="/Account/RemoveAccount">Видалити профайл</a></div>
+            @*
+              @Html.ActionLink("Змінити пароль", "Manage", "Account")
+              @Html.ActionLink("Видалити профайл", "RemoveAccount", "Account")
+            *@
+            </div>
+        </div>
+    </div>
+
+
+    @*<div><input id="file" type="file" name="file" class="inputFile" /></div>
+        <div class="avaEdit"><img src="/Content/Images/Users/@Model.Image" width="100" alt="@Model.UserName" /></div>*@

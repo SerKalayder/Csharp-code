@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Результати пошуку";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using fww.Models;
+@model List<Ad>
+
+<!-- MIDDLE -->
+<div class="middleCont">
+    <div class="headline">Результати пошуку</div>
+    <div class="content">
+        @foreach (var m in Model)
+        {
+            if (m != null)
+            {
+                <div class="record" onclick="window.location.href = '/Ads/No/@m.Id'">
+                    <div class="recordTitle">@m.Title</div>
+                    <div class="recordText">@m.Text</div>
+                    <div class="infoBar">
+                        <div class="recordEngaged">Підписано: @m.Engaged</div>
+                        <div class="recordViews">Переглядів: @m.Views</div>
+                        <div class="recordTime">@m.Date.ToString("dd/MM/yyyy")</div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

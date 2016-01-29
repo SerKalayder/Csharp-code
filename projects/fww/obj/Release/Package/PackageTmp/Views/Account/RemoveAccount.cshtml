@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Remove account";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="register-main-div">
+    <div class="remove-title">Ви впевнені, що хочете видалити Ваш профайл?</div>
+    <div>
+        <form action="/Account/RemoveAccount" method="post">
+            <input type="submit" name="name" value="Підтвердити" class="register-button" />
+        </form>
+    </div>
+</div>

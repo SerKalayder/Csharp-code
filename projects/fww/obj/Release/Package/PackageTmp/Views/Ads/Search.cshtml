@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Знайди з ким";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string[] themes = File.ReadAllLines(Server.MapPath("~/App_Data/Themes.txt"));
+    string[] cities = File.ReadAllLines(Server.MapPath("~/App_Data/c.txt"));
+}
+@using fww.Models;
+@*@model List<Ad>*@
+@model IndexViewModel
+@using fww.Helpers
+
+
+<div class="content-search">
+    <!-- LEFT -->
+    <div class="left-box-search">
+        @if (Model.Ads.Count() != 0)
+        {
+            foreach (Ad m in Model.Ads)
+            {
+                if (m != null)
+                {
+                    <div class="record" onclick="window.location.href = '/Ads/No/@m.Id'">
+                        <div class="recordTitle">@m.Title @*<a href="/MyAds/Edit/@m.Id" class="edit-pencil">Редагувати</a>*@</div>
+                        <div class="recordText">@m.Text</div>
+                        <div class="record-info-bar">
+                            <div>Підписано: @m.Engaged</div>
+                            <div>Тема: @m.Theme</div>
+                            <div>Місце: @m.Location</div>
+                            <div class="recordTime">@m.Date.ToString("dd/MM/yyyy")</div>
+                        </div>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <div style="color:#808080; font-family:Tahoma;
+            font-size:14px; padding-top:15px;">
+                Нічого не знайдено.
+            </div>
+        }
+        <br />
+        <div class="sliders">
+            @Html.PageLinks(Model.PageInfo, x => Url.Action("Search", new { page = x }))
+        </div>
+        <div class="footer-search"></div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right-box-search">
+        <div class="search-rightbox-head">Пошук</div>
+        <form class="filter-form" method="post" action="/Ads/Search">
+            <div class="search-input-item">
+                <label for="keywords">Ключові слова</label>
+                <input name="Keywords" id="keywords" type="text" class="search-keywords"
+                       placeholder="що шукати?"
+                       value="@ViewBag.Keywords" />
+            </div>
+            <div class="search-input-item">
+                <label for="theme">Оберіть тему</label>
+                <select name="Theme" id="theme" class="search-select">
+                    @foreach (string item in themes)
+                    {
+                        if (ViewBag.Theme != item)
+                        {
+                            <option value="@item">@item</option>
+                        }
+                        else
+                        {
+                            <option value="@item" selected="selected">@item</option>
+                        }
+                    }
+                </select>
+
+            </div>
+            <div class="search-input-item">
+                <label for="location">Оберіть область пошуку</label>
+                <select name="Location" id="location" class="search-select">
+                    @foreach (string item in cities)
+                    {
+                        if (ViewBag.Location != item)
+                        {
+                            <option value="@item">@item</option>
+                        }
+                        else
+                        {
+                            <option value="@item" selected="selected">@item</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="search-input-checkbox">
+                @if (@ViewBag.Popularity == "on")
+                {
+                    <input type="checkbox" name="Popularity" id="popularity" checked="checked" />
+                    <label for="popularity">Сортувати за популярністю</label>
+                }
+                else
+                {
+                    <input type="checkbox" name="Popularity" id="popularity" />
+                    <label for="popularity">Сортувати за популярністю</label>
+                }
+            </div>
+
+            <input type="submit" class="search-button-search" value="Шукати" />
+        </form>
+    </div>
+</div>

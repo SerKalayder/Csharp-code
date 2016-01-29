@@ -1,0 +1,49 @@
+﻿@model fww.Models.LoginModel
+
+@{
+    ViewBag.Title = "Перевірка вхідних даних";
+}
+
+<div class="login-checking-main-box">
+    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl },
+        FormMethod.Post, new { @class = "", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+
+        
+    <p>Були вказані не вірні вхідні дані</p>    
+    <div class="register-box">
+        <div>
+            @Html.TextBoxFor(m => m.UserName, new { @class = "register-textbox", placeholder = "Імейл" })
+        </div>
+        <div>
+            @Html.PasswordFor(m => m.Password, new { @class = "register-textbox", placeholder = "Пароль" })
+        </div>
+    </div>
+
+        <div class="loginFields">
+            <input type="submit" value="Увійти" class="login-checking-button" />
+        </div>
+
+        <div class="loginFieldsValidation">
+            <div>@Html.ValidationMessageFor(m => m.UserName)</div>
+            <div>@Html.ValidationMessageFor(m => m.Password)</div>
+            <div>@ViewBag.Inc</div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+@*
+    <div class="checkboxDiv">
+        <div class="checkbox">
+            @Html.CheckBoxFor(m => m.RememberMe)
+        </div>
+        <div class="rememberMe">
+            @Html.LabelFor(m => m.RememberMe)
+        </div>
+    </div>
+*@

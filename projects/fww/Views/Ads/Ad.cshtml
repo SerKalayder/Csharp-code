@@ -1,0 +1,201 @@
+﻿@using fww.Models;
+@model AdView
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string Path = String.Format("/Content/Images/Users/");
+}
+
+<main>
+    <div>
+        @if (Model != null)
+        {
+            <section class="article-info">
+                <p>Theme</p>
+                <p>Country</p>
+                <p class="date">1/12/2016</p>
+               @if (User.Identity.Name == @Model.UserName)
+                { <a href="/MyAds/Edit/@Model.Id">Edit this ad</a> }
+
+            </section>
+
+            <article>
+                <h1>@Model.Title</h1>
+                <p>@Model.Text</p>
+            </article>
+        }
+    </div>
+    <div id="disqus_thread"></div>
+    <script>
+                /**
+                * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+
+                s.src = '//findwithwhom.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//findwithwhom.disqus.com/count.js" async></script>
+</main>
+
+
+        
+
+
+            @*if (ViewBag.Subscribers.Count != 0)
+            {
+                <div>
+                    <div>Підписники:</div>
+                    <div>
+                        @foreach (var item in ViewBag.Subscribers)
+                        {
+                            if (item != null)
+                            {
+                                <div>
+                                    <div>
+                                        @if (System.IO.File.Exists(Server.MapPath(Path + item.Image))) {
+                                            <img width="100" height="100" src="@Url.Content(Path + item.Image)" alt="@item.Nickname" />}
+                                        else { <img width="100" height="100" src="@Url.Content(Path + "default.png")" alt="@item.Nickname" /> }
+                                    </div>
+                                    <div>
+                                        @if (User.Identity.Name != @item.UserName) {
+                                            <div>
+                                                <a href="/Messages/ConvoWith/@item.UserName">@item.Nickname</a>
+                                            </div> }
+                                        else { <div>@item.Nickname</div> }
+                                        <div>@item.FirstName @item.LastName</div>
+                                        <div>@item.Country, @item.Town</div>
+                                        <div>@item.Occupation</div>
+                                        <div>@item.Interests</div>
+                                    </div>
+                                </div>
+                            }
+
+                        }
+                    </div>
+                </div>
+            }
+            @* else
+                {
+                    <div style="color:#808080; font-family:Tahoma; font-size:11px; padding-left:10px;">Це оголошення ще не має підписників.</div>
+                }
+        }*@
+    
+    <!-- RIGHT -->
+    @*<div class="right-box-my">
+        <div class="infoBar">
+            <div class="ad-data-title">Відомості про оголошення</div>
+            @if (User.Identity.Name == @Model.UserName)
+            {
+                <div class="ad-data-author">
+                    @if (Model != null)
+                    {
+                        <div class="ad-data-item">
+                            <div style="float:left;margin-right:10px">
+                                @if (System.IO.File.Exists(Server.MapPath(Path + Model.AuthorImage)))
+                                {
+                                    <img width="150" height="150" src="@Url.Content(Path + Model.AuthorImage)"
+                                         alt="@Model.Nickname" />
+                                }
+                                else
+                                {
+                                    <img width="150" height="150" src="@Url.Content(Path + "default.png")"
+                                         alt="@Model.Nickname" />
+                                }
+                            </div>
+                            <div class="ad-data-info-block">
+                                <div class="current-user-name">@Model.Nickname</div>
+                                <div class="info">@Model.FirstName @Model.LastName</div>
+                                <div class="info">@Model.Occupation</div>
+                                <div class="info">Активність: @Model.LastTimeOnline.ToString("dd/MM/yyyy")</div>
+                                            </div>
+                                        </div>
+                    }
+                    <a href="/MyAds/Edit/@Model.Id">Редагувати оголошення</a>
+                </div>
+                <div class="ad-data-info">
+                    <div>Тема: <span>@Model.Theme</span></div>
+                    <div>Місце: <span>@Model.Location</span></div>
+                    <div>Оцінка: <span>@Model.Rank</span></div>
+                    <div>Підписників: <span>@Model.Engaged</span></div>
+                    <div>Переглядів: <span>@Model.Views</span></div>
+                    <div>Дата публікації: <span>@Model.Date.ToString("dd/MM/yyyy")</span></div>
+                    <div>Ключові слова: <span>@Model.Keywords</span></div>
+                </div>
+            }
+            else
+            {
+                <div class="ad-data-author">
+                    @if (Model != null)
+                    {
+                        <div class="ad-data-item">
+                            <div style="float:left;margin-right:10px">
+                                @if (System.IO.File.Exists(Server.MapPath(Path + Model.AuthorImage)))
+                                {
+                                    <img width="150" height="150" src="@Url.Content(Path + Model.AuthorImage)"
+                                         alt="@Model.Nickname" />
+                                }
+                                else
+                                {
+                                    <img width="150" height="150" src="@Url.Content(Path + "default.png")"
+                                         alt="@Model.Nickname" />
+                                }
+                            </div>
+                            <div class="ad-data-info-block">
+                                <div class="current-user-name">@Model.Nickname</div>
+                                <div class="info">@Model.FirstName @Model.LastName</div>
+                                <div class="info">@Model.Occupation</div>
+                                <div class="info">@Model.LastTimeOnline.ToString("dd/MM/yyyy")</div>
+                                            </div>
+                                        </div>
+                    }
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a href="/Messages/ConvoWith/@Model.UserName">Написати Автору</a>
+                    }
+                    
+                </div>
+                <div class="ad-data-info">
+                    <div>Тема: <span>@Model.Theme</span></div>
+                    <div>Місце: <span>@Model.Location</span></div>
+                    <div>Оцінка: <span>@Model.Rank</span></div>
+                    <div>Підписників: <span>@Model.Engaged</span></div>
+                    <div>Переглядів: <span>@Model.Views</span></div>
+                    <div>Дата публікації: <span>@Model.Date.ToString("dd/MM/yyyy")</span></div>
+                    <div>Ключові слова: <span>@Model.Keywords</span></div>
+                </div>
+                
+            }
+        </div>
+
+
+
+    </div>*@
+
+
+
+
+
+
+
+
+@*if (!ViewBag.Flag && User.Identity.Name != @Model.UserName && User.Identity.IsAuthenticated)
+    {
+        <form method="post" action="/Ads/Subscribe">
+            <input type="hidden" name="SubscriptionID" value="@Model.Id" />
+            <input type="hidden" name="UserID" value="@User.Identity.Name" />
+            <input name="subscribe" type="submit" value="Підписатися" class="subs-button" />
+        </form>
+    }*@

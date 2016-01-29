@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "Редагування";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string[] themes = File.ReadAllLines(Server.MapPath("~/App_Data/Themes.txt"));
+    string[] cities = File.ReadAllLines(Server.MapPath("~/App_Data/Countries.txt"));
+}
+@model fww.Models.Ad
+
+
+
+<main class="my-ads">
+    <form method="post" action="/MyAds/Edit">
+        <label for="title">Title</label>
+        <textarea maxlength="100" name="Title" id="title"
+                  placeholder="shortly describe your idea here..">@Model.Title</textarea>
+
+        <label for="text">Text</label>
+        <textarea maxlength="800" name="Text" id="text" placeholder="type addition info here..">@Model.Text</textarea>
+
+        <label for="theme">Theme</label>
+        <select name="Theme" id="theme">
+            @foreach (string item in themes)
+            {
+                if (Model.Theme == item)
+                {
+                    <option selected value="@item">@item</option> }
+                else
+                {
+                    <option value="@item">@item</option> }
+            }
+        </select>
+
+        <label for="location">Country</label>
+        <select name="Location" id="location">
+            @foreach (string item in cities)
+            {
+                if (Model.Country == item)
+                {
+                    <option selected value="@item">@item</option> }
+                else
+                {
+                    <option value="@item">@item</option> }
+            }
+        </select>
+
+        <label for="keywords">Keywords</label>
+        <input name="Keywords" id="keywords" type="text" value="@Model.Keywords" />
+
+        <input name="Id" type="hidden" value="@Model.Id" />
+
+        <a href="/MyAds/Delete/@Model.Id">Delete this ad</a>
+        <input name="editButton" type="submit" value="Safe Changes" />
+
+    </form>
+</main>
+    
+
+
+@*<label for="file">Зображення</label>
+    <label for="file" class="upload-label">Обрати</label>
+    <input id="file" type="file" name="file" class="upload" />*@

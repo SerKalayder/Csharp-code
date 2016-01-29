@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Нове повідомлення";
+}
+<div class="content">
+    <form method="post" action="/Messages/New">
+        <textarea name="MessageText" placeholder="Введіть текст тут..." class="message"></textarea>
+        <input name="MessageReceiver" type="hidden" value="@ViewBag.Receiver" />
+        <input name="AppendButton" type="submit" value="Відправити" class="appendBt" />
+    </form>
+</div>

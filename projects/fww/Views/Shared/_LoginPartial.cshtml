@@ -1,0 +1,33 @@
+﻿@if (Request.IsAuthenticated) {
+   using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+   {
+       string style = "read", linktext = "Conversations";
+        if (ViewBag.IsUnread == true) {
+            style = "unread";
+            linktext = "Conversations ++";
+        }
+        @Html.AntiForgeryToken()
+    <ul class="menu-list">
+        <li>@Html.ActionLink("Home", "Index", "Ads")</li>
+        @*<li>@Html.ActionLink("Profile", "Index", "MyAds")</li>*@
+        <li>@Html.ActionLink("Create new", "New", "MyAds")</li>
+        <li>@Html.ActionLink("My ads", "Index", "MyAds")</li>
+        @*<li>@Html.ActionLink("Subscriptions", "Index", "MySubs")</li>*@
+        <li>@Html.ActionLink("Settings", "Settings", "Account")</li>    
+        <li>@Html.ActionLink("About", "Index", "About")</li>
+    
+        @*<li>@Html.ActionLink(linktext, "Index", "Messages", null, new { @id = style })</li>*@
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Sign out</a></li>
+        
+        @* @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Manage", "Account", routeValues: null, htmlAttributes: new { title = "Manage" }) *@
+    </ul>
+    }
+}
+else
+{
+    <ul class="menu-list">
+        <li>@Html.ActionLink("Sign up", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        @*<li>@Html.ActionLink("Вхід", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>*@
+        @*<li>@Html.ActionLink("Про проект", "Index", "About")</li>*@
+</ul>
+}

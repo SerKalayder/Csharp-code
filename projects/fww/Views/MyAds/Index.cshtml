@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "My ads";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using fww.Models;
+@model List<Ad>
+
+
+<main class="my-ads">
+    <div class="row">
+        @Html.ActionLink("Create new ad", "New", "MyAds")
+    </div>
+    @if (Model.Count != 0)
+    {
+        foreach (var m in Model)
+        {
+            if (m != null)
+            {
+                <div class="record" onclick="window.location.href = '/Ads/No/@m.Id'">
+                    <div class="record-main-line">
+                        <p>@m.Title we are going to help ukranians to beat theur president</p>
+                    </div>
+                <div class="record-info">
+                    <div class="textual">
+                        <p>Тема: @m.Theme</p>
+                        <p>Місце: @m.Country</p>
+                    </div>
+                    <div class="visual">
+                        <p>@m.Date</p>
+                        @*<p class="edit-icon"><a href="#"><img src="@Url.Content("~/Content/Images/edit.png")" /></a></p>
+                        <p class="subs-icon"><img src="@Url.Content("~/Content/Images/subs.png")" /> 93</p>
+                        <p class="stars-icon"><img src="@Url.Content("~/Content/Images/star.png")" /> 81</p>
+                        <a href="/MyAds/Edit/@m.Id" class="edit-pencil">Редагувати</a>*@
+                    </div>
+                </div>
+            </div>
+
+
+
+                @*<div class="record" onclick="window.location.href = '/Ads/No/@m.Id'">
+                    <div class="recordTitle">@m.Title <a href="/MyAds/Edit/@m.Id" class="edit-pencil">Редагувати</a></div>
+                    <div class="recordText">@m.Text</div>
+                    <div class="record-info-bar">
+                        <div>Підписано: @m.Engaged</div>
+                        <div>Тема: @m.Theme</div>
+                        <div>Місце: @m.Country</div>
+                        <div class="recordTime">@m.Date.ToString("dd/MM/yyyy")</div>
+                    </div>
+                </div>*@
+            }
+        }
+    }
+    else { <div> У Вас поки-що немає своїх оголошень. </div> }
+
+</main>
+
+
+        
+
+    

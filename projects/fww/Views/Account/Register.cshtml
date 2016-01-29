@@ -1,0 +1,50 @@
+﻿@model fww.Models.RegisterModel
+@{
+    ViewBag.Title = "Реєстрація";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/new.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="header-line">
+                <div class="logo-line"><a href="/">Знайди з ким</a></div>
+                <div class="menu-line">
+                    <div class="register-title-in-menu-line">Реєстрація</div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- BODY -->
+        <div class="register-main-div"></div>
+        <div class="register-box">
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="register-fields">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "register-textbox", placeholder = "Нікнейм" })
+                    @Html.PasswordFor(m => m.Password, new { @class = "register-textbox", placeholder = "Пароль" })
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "register-textbox", placeholder = "Підтвердіть пароль" })
+                    <input type="submit" value="Зареєструвати" class="register-button" />
+                </div>
+                <div class="loginFieldsValidation">
+                    <div>@Html.ValidationMessageFor(m => m.UserName)</div>
+                    <div>@Html.ValidationMessageFor(m => m.Password)</div>
+                    <div>@ViewBag.Err</div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>
+
+

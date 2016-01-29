@@ -1,0 +1,62 @@
+﻿@model fww.Models.Ad
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "New Ad";
+    string[] themes = File.ReadAllLines(Server.MapPath("~/App_Data/Themes.txt"));
+    string[] countries = File.ReadAllLines(Server.MapPath("~/App_Data/Countries.txt"));
+    string[] regions = File.ReadAllLines(Server.MapPath("~/App_Data/Regions.txt"));
+
+    string[] ukraine = File.ReadAllLines(Server.MapPath("~/App_Data/Ukraine.txt"));
+    string[] usa = File.ReadAllLines(Server.MapPath("~/App_Data/USA.txt"));
+    string[] russia = File.ReadAllLines(Server.MapPath("~/App_Data/Russia.txt"));
+    
+}
+
+
+<main class="my-ads">
+    <form method="post" action="/MyAds/New">
+        <label for="title">Title</label>
+        <textarea maxlength="100" name="Title" id="title" 
+                  placeholder="shortly describe your idea here.."></textarea>
+
+        <label for="text">Text</label>
+        <textarea maxlength="800" name="Text" id="text" placeholder="type addition info here.." ></textarea>
+
+        <label for="theme">Theme</label>
+        <select name="Theme" id="theme">
+            @foreach (string item in themes) { <option value="@item">@item</option> }
+        </select>
+                
+        <label for="location">Country</label>
+        <select name="Location">
+            @foreach (string item in countries) { <option value="@item">@item</option> }
+        </select>
+
+        <label for="location">Region</label>
+        <select name="Location" class="select-new">
+            @foreach (string item in regions) { <option value="@item">@item</option> }
+        </select>
+
+        <label for="keywords">Tags</label>
+        <input name="Keywords" id="keywords" type="text" placeholder="(max 5)" />
+            
+        <input name="newButton" type="submit" value="Publish" />
+    </form>
+</main>
+
+
+@*<div class="div-new">
+        <label for="text">Text</label>
+        <textarea name="Text" id="text" placeholder="type here.." class="message-input-new"></textarea>
+    </div>*@
+
+@*<div>
+        <label for="location">Region</label>
+        <select name="Location" class="select-new">
+            @foreach (string item in regions)
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+    </div>*@
