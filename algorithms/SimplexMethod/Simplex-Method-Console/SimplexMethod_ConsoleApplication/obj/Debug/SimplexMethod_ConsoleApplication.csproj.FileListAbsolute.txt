@@ -1,0 +1,6 @@
+c:\users\serkalayder\documents\visual studio 2015\Projects\SimplexMethod_ConsoleApplication\SimplexMethod_ConsoleApplication\bin\Debug\SimplexMethod_ConsoleApplication.exe.config
+c:\users\serkalayder\documents\visual studio 2015\Projects\SimplexMethod_ConsoleApplication\SimplexMethod_ConsoleApplication\bin\Debug\SimplexMethod_ConsoleApplication.exe
+c:\users\serkalayder\documents\visual studio 2015\Projects\SimplexMethod_ConsoleApplication\SimplexMethod_ConsoleApplication\bin\Debug\SimplexMethod_ConsoleApplication.pdb
+c:\users\serkalayder\documents\visual studio 2015\Projects\SimplexMethod_ConsoleApplication\SimplexMethod_ConsoleApplication\obj\Debug\SimplexMethod_ConsoleApplication.csprojResolveAssemblyReference.cache
+c:\users\serkalayder\documents\visual studio 2015\Projects\SimplexMethod_ConsoleApplication\SimplexMethod_ConsoleApplication\obj\Debug\SimplexMethod_ConsoleApplication.exe
+c:\users\serkalayder\documents\visual studio 2015\Projects\SimplexMethod_ConsoleApplication\SimplexMethod_ConsoleApplication\obj\Debug\SimplexMethod_ConsoleApplication.pdb

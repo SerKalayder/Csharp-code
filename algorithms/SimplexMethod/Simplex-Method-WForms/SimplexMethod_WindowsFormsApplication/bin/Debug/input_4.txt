@@ -1,0 +1,8 @@
+3
+4
+-2 -3 0
+1 1 100
+6 3 360
+1 2 120
+
+https://www.youtube.com/watch?v=LHh5wFYHYOg

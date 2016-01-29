@@ -1,0 +1,10 @@
+4
+4
+-4 -5 -4 0
+2 3 6 240
+4 2 4 200
+4 6 8 160 
+
+
+ 160
+http://1cov-edu.ru/reshenie_zadach_simpleks_metodom/primer/
